@@ -1,0 +1,10 @@
+RELEASE=2020.04
+CODENAME=aluminium
+EDITION="Plasma"
+DESCRIPTION="Feren OS"
+DESKTOP=Plasma
+TOOLKIT=QT
+NEW_FEATURES_URL=file:///usr/share/feren-welcome/changelog.html
+RELEASE_NOTES_URL=https://ferenos.weebly.com/news/release-notes-for-feren-os-1804-based
+USER_GUIDE_URL=help:linuxmint
+GRUB_TITLE=Feren OS

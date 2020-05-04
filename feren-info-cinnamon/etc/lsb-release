@@ -1,0 +1,4 @@
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=versionno
+DISTRIB_CODENAME=codenamething
+DISTRIB_DESCRIPTION="Feren OS Classic"

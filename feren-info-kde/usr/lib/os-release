@@ -1,0 +1,12 @@
+NAME="Feren OS"
+VERSION="2020.04"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Feren OS"
+VERSION_ID="versionno"
+HOME_URL="https://ferenos.weebly.com/"
+SUPPORT_URL="https://ferenos.weebly.com/feren-os-on-social-media.html"
+BUG_REPORT_URL="https://github.com/feren-OS/Bug-Reporting-Center/issues/new"
+PRIVACY_POLICY_URL="https://ferenos.weebly.com/privacy-policy.html"
+VERSION_CODENAME=codenamething
+FEREN_CODENAME=aluminium

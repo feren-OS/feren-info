@@ -1,0 +1,25 @@
+#!/bin/bash
+
+codename=$(cat /etc/feren-os-base)
+
+if [ "$codename" = "disco" ]; then
+    sed -i 's/versionno/19.04/g' /etc/lsb-release
+    sed -i "s/codenamething/$codename/g" /etc/lsb-release
+    sed -i 's/versionno/19.04/g' /usr/lib/os-release
+    sed -i "s/codenamething/$codename/g" /usr/lib/os-release
+elif [ "$codename" = "cosmic" ]; then
+    sed -i 's/versionno/18.10/g' /etc/lsb-release
+    sed -i "s/codenamething/$codename/g" /etc/lsb-release
+    sed -i 's/versionno/18.10/g' /usr/lib/os-release
+    sed -i "s/codenamething/$codename/g" /usr/lib/os-release
+elif [ "$codename" = "xenial" ]; then
+    sed -i 's/versionno/16.04/g' /etc/lsb-release
+    sed -i "s/codenamething/$codename/g" /etc/lsb-release
+    sed -i 's/versionno/16.04/g' /usr/lib/os-release
+    sed -i "s/codenamething/$codename/g" /usr/lib/os-release
+else
+    sed -i 's/versionno/18.04/g' /etc/lsb-release
+    sed -i "s/codenamething/bionic/g" /etc/lsb-release
+    sed -i 's/versionno/18.04/g' /usr/lib/os-release
+    sed -i "s/codenamething/$codename/g" /usr/lib/os-release
+fi
